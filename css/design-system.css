@@ -1,5 +1,7 @@
 /*Tags Style*/
 
+/* resets */
+
 /* headers */
 h1,
 h2,
@@ -8,6 +10,7 @@ h4,
 h5,
 h6 {
     font-family: sans-serif;
+    color: rgba(22, 21, 21, 0.906);
 }
 
 h1 {
