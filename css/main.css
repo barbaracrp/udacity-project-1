@@ -1,0 +1,4 @@
+/* imported in all pages */
+@import 'design-system.css';
+@import 'layout.css';
+@import 'components.css';

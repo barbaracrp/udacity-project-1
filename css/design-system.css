@@ -1,0 +1,61 @@
+/*Tags Style*/
+
+/* headers */
+h1,
+h2,
+h3 {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+/* Paragraph */
+p {
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+i {
+    font-style: italic;
+}
+
+em {
+    text-decoration: underline;
+}
+
+strong {
+    font-weight: 700;
+}
+
+/* links */
+
+a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a:visited {
+    color: dimgray;
+}
+
+a:hover {
+    color: darkkhaki;
+}
+
+blockquote,
+q,
+cite {
+    color: gray;
+}
+
+
+
