@@ -1,3 +1,57 @@
 .avatar {
     border-radius: 50%;
 }
+
+article.card {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    min-height: 130px;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px dimgrey ;
+    padding: 5px;
+}
+
+article.card > span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+article.card > h4 {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+
+article.card > small {
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+article.card > p {
+    font-size: 14px;
+    min-height: 30px;
+    /* text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap; */
+    line-clamp: 2;
+}
+
+article.card > a {
+    font-size: 12px;
+    text-align: end;
+}
+
+/* navbar */
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-align: end;
+}
+
+.navbar li {
+   margin-left: 10px;
+} 
