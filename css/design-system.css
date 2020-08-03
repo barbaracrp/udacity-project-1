@@ -11,6 +11,8 @@ h5,
 h6 {
     font-family: sans-serif;
     color: rgba(22, 21, 21, 0.906);
+    margin-top: 5px;
+    margin-bottom: 3px;
 }
 
 h1 {
