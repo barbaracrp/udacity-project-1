@@ -2,3 +2,14 @@
 @import 'design-system.css';
 @import 'layout.css';
 @import 'components.css';
+
+.copy {
+    font-family: monospace;
+}
+
+@media(min-width: 320px) and (max-width: 480px) {
+    .copy {
+        text-align: center;
+    }
+
+}

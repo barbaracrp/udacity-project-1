@@ -91,3 +91,29 @@ cite {
 .gray-text {
     color: silver;
 }
+
+@media(min-width: 320px) and (max-width: 480px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+
+    h5 {
+        font-size: 16px;
+    }
+
+    h6 {
+        font-size: 12px;
+    }
+}
