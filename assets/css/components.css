@@ -99,3 +99,46 @@ a:visited.social-media-icon {
         flex-direction: column;
     }
 }
+
+figure {
+    border: 1px #cccccc solid;
+    padding: 4px;
+    margin: auto;
+    width: 320px;
+}
+
+figure > img {
+    width: 320px;
+}
+
+figcaption {
+    background-color: black;
+    color: white;
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+    width: 320px;
+}
+
+@media(min-width: 769px) {
+    section.fig-section {
+        display: flex;
+        justify-content: space-between;
+        margin: 5px;
+    }
+}
+
+@media(min-width: 320px) {
+    section.fig-section {
+        margin-top: 5px;
+    }
+    figure {
+        width: 280px;
+    }
+    figure > img {
+        width: 272px;
+    }
+    figcaption {
+        width: 272px;
+    }
+}
